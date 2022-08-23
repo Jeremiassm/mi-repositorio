@@ -1,2 +1,0 @@
-# mi-repositorio
-Primer repositorio
