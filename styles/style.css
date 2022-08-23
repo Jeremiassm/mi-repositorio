@@ -22,7 +22,7 @@ body {
 
 .menu li{
   list-style: none;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .menu li a{
