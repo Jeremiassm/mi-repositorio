@@ -18,8 +18,13 @@ body {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
-    text-decoration: ;
+    background-color: azure;
+}
+h3{
+    padding-right: 40%;
+    margin-bottom: 40%;
+    margin-bottom: 30%;
+    background-color: aqua;
 }
 
 .contenedor{
