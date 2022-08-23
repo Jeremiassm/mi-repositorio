@@ -17,7 +17,7 @@ body {
 }
 
 .menu{
-  background-color: rgb(12, 184, 184);
+  background-color: #0cb8b8;
 }
 
 .menu li{
@@ -29,10 +29,13 @@ body {
   color: black;
   text-decoration: none;
   display: block;
-  padding: 20px 150px;
+  padding: 20px 140px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s;
 }
 .menu li a:hover{
-  background-color: azure;
+  background-color: #f0ffff;
 }
 
 .menu .item-d{
@@ -99,7 +102,13 @@ header {
   text-align: center;
   transition: all 0.25s;
   margin-bottom: 10px;
+  animation: movimiento 2s;
+  animation: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  display:grid;
 }
+
 /*Comienzo de las queries*/
 @media screen and (max-width: 768px) {
   .menu li a{
@@ -145,5 +154,12 @@ header {
 .container .card {
   margin-bottom: 40px;
 }
+
+}
+@keyframes movimiento {
+  2%{
+    width: 101%;
+    height: 101%;
+  }
 
 }
