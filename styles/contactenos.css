@@ -4,43 +4,79 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
 }
 body {
-    background: url(../img/med2.jpg);
+    background: url(../img/fondoconectenos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
     height: 100vh;
+    width: 100%;
     color: black;}
 
-.title{
+
+.logo {
     text-decoration: underline;
-}
+    color:black
+  }
 
 .boton{
     padding: 1%;
     margin: 0 auto;
-    background-color: azure;
+    background-color: rgb(144, 232, 232);
     display: block;
     width: fit-content;
 }
-.descripcion{
-    text-decoration:underline;
-}
+
 
 .contenedor{
-    width: 900px;
-    height: 480px;
+    width: 1920px;
+    height: 720px;
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 2fr 2fr;
+    font-size: x-large;
+    border: 2px solid black;
+    
 }
-.pagina{
-    border: 1px solid red;
+.contenedor :hover{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
 }
-.pagina.subtitulo{
+.social {
     display: flex;
     justify-content: center;
-    align-items:flex-end;
+    align-items: center;
+    
+}
+.social a{
+    text-decoration: none;
+    color: black;
+}
+.social.Whatsapp:hover{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    font-size: xx-large;
+}
+.social.Mail:hover{
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    font-size: xx-large;
 
+}
+.social.Facebook:hover{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    font-size: xx-large;
+}
+.social.Instagram:hover{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);;
+    font-size: xx-large;
 }
