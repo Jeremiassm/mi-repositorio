@@ -4,70 +4,136 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
     <link rel="stylesheet" href="../styles/contactenos.css" />
     <title>Contáctenos</title>
   </head>
   <body>
     <header>
-      <a href="../index.html" class="logo">
-        <h1 class="title">Consultorio</h1></a>  
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fs-5 fw-bold"
+        style="background-color: #0cb8b8"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Consultorio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              </span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/beneficios.html">Beneficios</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./Pages/contactenos.html">Contáctenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/soporte.html">Soporte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/iniciar-sesion.html">Iniciar sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-
-    <button class="boton">Contáctenos</button>
-
-    <h3 class="title">
-      Podes comunicarte con nosotros por los siguientes medios. Tu consulta será
-      respondida a la brevedad.
-    </h3>
-    
-    <br/>
-    
-    <h3 class="title">Medios de comunicarte:</h3>
-    <br/>
-
-    <section>
-      <div class="contenedor">
-        <div class="social Mail">
-          <a href="https://gmail.com" target="_blank">
-            <img src="../img/mail.png" alt="mail" width="40px" height="40px" />
-            Mail@gmail.com
-          </a>
+    <main>
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6 mt-5">
+            <h4>Podes comunicarte por los siguientes medios</h4>
+            
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">Comunicate con nosotros via Whatsapp 
+                    <img class="ms-2" src="../img/WhatsApp_icon.png" height="5%" width="5%" alt="WhatsApp_icon">
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <strong>Podes comunicarte con nosotros envianos un Whatsapp al número:+54 123 1231312 o ingresando al siguiente link https://web.whatsapp.com/</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">Comunicate con nosotros vía Instagram  
+                    <img class= "ms-2" src="../img/Instagram_icon.png.png" height="5%" width="5%" alt="Instagram_icon">
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <strong>Podes enviarnos un mensaje privido por instagram a la cuenta @consultorioOnline o con el siguiente link https://instagram.com</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Comunicate con nosotros vía Facebook
+                    <img class= "ms-3" src="../img/facebook.png" height="5%" width="5%" alt="Facebook_icon">
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <strong>Podes enviarnos un mensaje privido por Facebook a la cuenta ConsultorioOnline o con el siguiente link https://Facebook.com</strong> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Comunicate con nosotros vía Mail 
+                    <img class= "ms-5" src="../img/mail.png" height="5%" width="5%" alt="Mail_icon">
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    <strong>Podes enviarnos un mail a ConsultorioOnline@gmail.com o siguiendo este link </strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <h4>Envianos un mensaje</h4>
+            <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresá tu mail">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje detalladamente</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6">
+              </textarea>
+              <div class="d-flex flex-row-reverse">
+              <div class="p-2">
+              <button type="button" class="btn btn-primary btn-lg">Enviar mensaje</button>
+            </div>
+          </div>
+            
+            </form>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="social Whatsapp">
-          <a href="https://web.whatsapp.com/" target="_blank">
-            <img
-              src="../img/WhatsApp_icon.png"
-              alt="Whatsapp"
-              width="40px"
-              height="40px"
-            />
-            +54 123 1231223
-          </a>
-        </div>
-        <div class="social Facebook">
-          <a href="https://www.facebook.com/" target="_blank">
-            <img
-              src="../img/facebook.png"
-              alt="Facebook"
-              width="40px"
-              height="40px"
-            />
-            ConsultorioOnline
-          </a>
-        </div>
-        <div class="social Instagram">
-          <a href="https://www.instagram.com/" target="_blank">
-            <img
-              src="../img/Instagram_icon.png.png"
-              alt="Instagram"
-              width="40px"
-              height="40px"
-            />
-            ConsultorioOnline
-          </a>
-        </div>
-      </div>
-    </section>
+
+    </main>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
