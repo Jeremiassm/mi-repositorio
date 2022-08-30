@@ -8,18 +8,41 @@
 }
 
 body {
-  background: url(../img/med2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: black;
-  height: 100vh;
-  color: black;
+  background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
 }
-
+img{
+  max-height: 203px;
+  max-width: 300px;
+}
 .nav-item a:hover{
   font-size: 110%;
 }
 
+
 .btn{
   background-color: #0cb8b8;
+}
+
+footer{
+  background: azure;
+  min-height: 100px;
+}
+
+footer p{
+  text-align: center;
+}
+
+#iconos i{
+  font-size: 26px;
+  padding: 0 8px;
+  color: black;
+}
+
+.w-100 .d-flex .align-items-center .justify-content-center .flex-wrap{
+  margin-top: 80% !important;
+}
+
+@media screen and (max-width 768px);{
+ 
+  
 }
