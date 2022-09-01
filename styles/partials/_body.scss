@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+
+    header {
+        display: flex;
+        height: 70px;
+        justify-content: left;
+        font-size: large;
+        margin-top: 5px;
+
+        .logo {
+            text-decoration: underline;
+            color:black
+          }
+      }
+  }

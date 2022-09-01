@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px) 
+{.menu li a{
+  padding: 10px 8px;
+}
+.container {
+  grid-template-columns: 2fr;
+  grid-template-rows: repeat(4, 4fr);
+  grid-template-areas:
+    "turnos"
+    "consultas"
+    "novedades"
+    "obras"
+    "video";
+}
+.container .card {
+  margin-bottom: 40px;
+}
+
+}
+@keyframes movimiento {
+  2%{
+    width: 101%;
+    height: 101%;
+  }
+
+}

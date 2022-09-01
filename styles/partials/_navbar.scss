@@ -1,0 +1,22 @@
+.menu{
+    background-color: $mainColor ;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+  }
+  .menu li a:hover{
+    background-color: #f0ffff;
+  }
+  .item-d{
+    float: right;
+  }
+  .menu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px 140px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;  
+  }

@@ -7,13 +7,8 @@
     font-family: "Mulish", sans-serif;
 }
 body {
-    background: url(../img/fondoconectenos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
-    height: 100vh;
-    width: 100%;
-    color: black;}
+    background: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+}
 
 .logo {
     text-decoration: underline;

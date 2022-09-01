@@ -1,0 +1,56 @@
+.cartas {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    }
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    font-size: xx-large;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px 220px;
+    grid-template-areas:
+      "turnos consultas video"
+      "novedades obras video";
+    }
+.container .card {
+    border: 3px solid black;
+    background-color: #fafafa;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    margin-bottom: 10px;
+    display:grid;
+}
+.container :hover{
+    background-color: $mainColor;
+    scale: 110%;
+}
+  .video {
+    grid-area: video;
+  }
+  .consultas {
+    grid-area: consultas;
+  }
+  .novedades {
+    grid-area: novedades;
+  }
+  .obras {
+    grid-area: obras;
+  }
+  .turnos {
+    grid-area: turnos;
+  }
