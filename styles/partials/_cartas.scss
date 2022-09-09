@@ -1,11 +1,26 @@
-.cartas {
-    width: 100%;
+@mixin cartadeafault{
+  width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
-    
-    
+  }
+  /*carta personalizada*/
+  @mixin cartaP {
+    border: 3px solid black;
+    background-color: #fafafa;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    margin-bottom: 10px;
+    display:grid;
+  }
+
+.cartas {
+  @include cartadeafault()   
 }
 .container a{
     text-decoration: none;
@@ -24,16 +39,7 @@
       "novedades obras video";
     }
 .container .card {
-    border: 3px solid black;
-    background-color: #fafafa;
-    border-radius: 20px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-    margin-bottom: 10px;
-    display:grid;
+  @include cartaP()   
 }
 .container :hover{
     background-color: $mainColor;
@@ -54,3 +60,5 @@
   .turnos {
     grid-area: turnos;
   }
+
+  

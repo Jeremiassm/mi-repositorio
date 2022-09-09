@@ -32,6 +32,7 @@ li {
 
 .menu li a:hover {
   background-color: #f0ffff;
+  scale: 110%;
 }
 
 .item-d {
@@ -48,6 +49,36 @@ li {
   transition-delay: 0s;
 }
 
+.title {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*carta personalizada*/
 .cartas {
   width: 100%;
   margin-top: 100px;
@@ -134,4 +165,39 @@ li {
     width: 101%;
     height: 101%;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+footer {
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+}
+footer footer p {
+  text-align: center;
+}
+footer #iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: black;
+  border-radius: 10px;
+}
+
+.bi-facebook {
+  background-color: #7a7af0;
+}
+
+.bi-instagram {
+  background-color: #d497c5;
+}
+
+.bi-whatsapp {
+  background-color: #008000;
+}
+
+.bi-envelope {
+  background-color: #e98d8d;
+}
+
+/*.container .card{
+  background-color: map-get($redes, envelope);
+}
+*//*# sourceMappingURL=estilos.css.map */
