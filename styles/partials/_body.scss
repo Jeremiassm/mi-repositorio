@@ -11,3 +11,25 @@ img{
   .btn{
     background-color: $mainColor;
   }
+
+  .card .cardvideo{
+    -webkit-animation:rotate-in-2-bck-cw .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation:rotate-in-2-bck-cw .5s cubic-bezier(.25,.46,.45,.94) both}
+    
+  .card{
+    border: 2px solid azure;
+  -webkit-animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both
+}
+@for $card from 1 through 4 {
+  .card#{$card}{
+   animation-delay:$card*0.3s;}
+}
+
+
+@-webkit-keyframes slide-in-bck-center{0%{-webkit-transform:translateZ(600px);transform:translateZ(600px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+@keyframes slide-in-bck-center{0%{-webkit-transform:translateZ(600px);transform:translateZ(600px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
+
+@-webkit-keyframes rotate-in-2-bck-cw{0%{-webkit-transform:translateZ(200px) rotate(-45deg);transform:translateZ(200px) rotate(-45deg);opacity:0}100%{-webkit-transform:translateZ(0) rotate(0);transform:translateZ(0) rotate(0);opacity:1}}
+@keyframes rotate-in-2-bck-cw{0%{-webkit-transform:translateZ(200px) rotate(-45deg);transform:translateZ(200px) rotate(-45deg);opacity:0}100%{-webkit-transform:translateZ(0) rotate(0);transform:translateZ(0) rotate(0);opacity:1}}
