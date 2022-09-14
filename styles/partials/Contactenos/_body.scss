@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 50%);
+}
+.nav-item a:hover{
+    font-size: 110%;
+      }
+
+.btn{
+        background-color: azure;
+}
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;    
+    background: #f0ffff;
+    min-height: 100px;
+    padding-top: 20px;}
+
+.footer p{
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: black;
+    border-radius: 10px ;
+  }
+  
+  $redes:(
+    facebook: #7a7af0,
+    instagram: #d497c5,
+    whatsapp: #008000,
+    envelope: #e98d8d,
+);
+
+@each $redesS, $colordered in $redes{
+  .bi-#{$redesS}{
+    background-color: $colordered;
+  }
+}
+

@@ -123,10 +123,53 @@ img {
     opacity: 1;
   }
 }
+footer .index {
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+footer .index footer .index p {
+  text-align: center;
+}
+footer .index #iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: black;
+  border-radius: 10px;
+}
+
+.bi-facebook {
+  background-color: #7a7af0;
+}
+
+.bi-instagram {
+  background-color: #d497c5;
+}
+
+.bi-whatsapp {
+  background-color: #008000;
+}
+
+.bi-envelope {
+  background-color: #e98d8d;
+}
+
+.titulo {
+  background-color: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+}
+
+.textF {
+  text-decoration: underline;
+}
+
 footer {
   background: #f0ffff;
   min-height: 100px;
   padding-top: 20px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
 }
 footer footer p {
   text-align: center;
@@ -152,4 +195,76 @@ footer #iconos i {
 
 .bi-envelope {
   background-color: #e98d8d;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+}
+
+.footer p {
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: black;
+  border-radius: 10px;
+}
+
+body {
+  background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 50%);
+}
+
+.nav-item a:hover {
+  font-size: 110%;
+}
+
+.btn {
+  background-color: azure;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+}
+
+.footer p {
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: black;
+  border-radius: 10px;
+}
+
+.bi-facebook {
+  background-color: #7a7af0;
+}
+
+.bi-instagram {
+  background-color: #d497c5;
+}
+
+.bi-whatsapp {
+  background-color: #008000;
+}
+
+.bi-envelope {
+  background-color: #e98d8d;
+}
+
+div .button {
+  background-color: #0cb8b8 !important;
 }/*# sourceMappingURL=estilos.css.map */
