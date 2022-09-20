@@ -1,11 +1,12 @@
-footer .index{
-    background: #f0ffff;
+.index-footer{
+    background-color: #f0ffff;
     min-height: 100px;
     padding-top: 20px;
     margin-top: 50px;
+  }
     
 
-    footer .index p{
+    .index-footer p{
         text-align: center;
       }
 
@@ -15,7 +16,7 @@ footer .index{
         color: black;
         border-radius: 10px ;
       }
-  }
+  
   $redes:(
     facebook: #7a7af0,
     instagram: #d497c5,

@@ -7,27 +7,55 @@
 }
 
 body {
-  background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
-img {
-  max-height: 203px;
-  max-width: 300px;
+.imagenPrincipal {
+  height: 80vh;
+  background-image: url("../../../img/med1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 40px;
+  padding-right: 120vh;
+  border: 1px solid black;
+}
+
+.imagenPrincipal h2 {
+  color: white;
+}
+
+.imagenPrincipal p {
+  color: white;
 }
 
 .btn {
-  background-color: #0cb8b8;
+  background-color: #0cb8b8 !important;
+  color: black;
 }
 
-.card .cardvideo {
-  -webkit-animation: rotate-in-2-bck-cw 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: rotate-in-2-bck-cw 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.quienes-somos {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border: 1px solid black;
 }
 
-.card {
-  border: 2px solid azure;
+.main {
+  border: 1px solid black;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card-body {
+  border: 2px solid black;
   -webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-bck-center 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.video-card {
+  height: 500px;
 }
 
 .card1 {
@@ -70,33 +98,9 @@ img {
     opacity: 1;
   }
 }
-@-webkit-keyframes rotate-in-2-bck-cw {
-  0% {
-    transform: translateZ(200px) rotate(-45deg);
-    opacity: 0;
-  }
-  100% {
-    transform: translateZ(0) rotate(0);
-    opacity: 1;
-  }
-}
-@keyframes rotate-in-2-bck-cw {
-  0% {
-    transform: translateZ(200px) rotate(-45deg);
-    opacity: 0;
-  }
-  100% {
-    transform: translateZ(0) rotate(0);
-    opacity: 1;
-  }
-}
 .navbar-brand {
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.nav-item a:hover {
-  scale: 110%;
 }
 
 @-webkit-keyframes tracking-in-expand {
@@ -123,16 +127,18 @@ img {
     opacity: 1;
   }
 }
-footer .index {
-  background: #f0ffff;
+.index-footer {
+  background-color: #f0ffff;
   min-height: 100px;
   padding-top: 20px;
   margin-top: 50px;
 }
-footer .index footer .index p {
+
+.index-footer p {
   text-align: center;
 }
-footer .index #iconos i {
+
+#iconos i {
   font-size: 26px;
   padding: 0 8px;
   color: black;
@@ -156,7 +162,7 @@ footer .index #iconos i {
 }
 
 .titulo {
-  background-color: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+  background-color: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
 .textF {
@@ -202,7 +208,6 @@ footer {
   position: absolute;
   bottom: 0;
   background: #f0ffff;
-  min-height: 100px;
   padding-top: 20px;
 }
 
@@ -218,11 +223,7 @@ footer {
 }
 
 body {
-  background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 50%);
-}
-
-.nav-item a:hover {
-  font-size: 110%;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
 .btn {
@@ -263,8 +264,4 @@ footer {
 
 .bi-envelope {
   background-color: #e98d8d;
-}
-
-div .button {
-  background-color: #0cb8b8 !important;
 }/*# sourceMappingURL=estilos.css.map */

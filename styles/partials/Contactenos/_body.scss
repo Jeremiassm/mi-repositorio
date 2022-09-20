@@ -1,9 +1,6 @@
 body {
-    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 50%);
+    background-image: $BackgroudColor;
 }
-.nav-item a:hover{
-    font-size: 110%;
-      }
 
 .btn{
         background-color: azure;

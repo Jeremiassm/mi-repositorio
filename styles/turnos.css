@@ -12,9 +12,6 @@ body{
     background-color:azure;
 }
 
-.nav-item a:hover{
-    font-size: 110%;
-  }
 
   .btn{
     background-color: #0cb8b8;
