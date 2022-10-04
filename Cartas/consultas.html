@@ -4,10 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
-    <title>Document</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> 
+    <!-- custom styles -->
+    <link rel="stylesheet" href= "../styles/estilos.css" />
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Consultorio - Consultas</title>
 </head>
-<body>
-    
+<body class="bodyCO">
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-dark fs-5 fw-bold"
+              style="background-color: #0cb8b8">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Consultorio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item item1 animate__animated animate__fadeInDownBig">
+                  <a class="nav-link" href="../Pages/beneficios.html">Beneficios</a
+                  >
+                </li>
+                <li class="nav-item item2 animate__animated animate__fadeInDownBig">
+                  <a class="nav-link" href="./Pages/contactenos.html">Contáctenos</a
+                  >
+                </li>
+                <li class="nav-item item3 animate__animated animate__fadeInDownBig">
+                  <a class="nav-link" href="./Pages/soporte.html">Soporte</a>
+                </li>
+                <li class="nav-item item4 animate__animated animate__fadeInDownBig">
+                  <a class="nav-link" href="./Pages/iniciar-sesion.html">Iniciar sesión</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <button class="button-36 d-grid col-2 mx-auto mt-4 mb-3" disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">Consulta Online</button>
+      <section class="main ms-3 text-bg-light p-3 me-3">
+        <div>
+        <button class="button-36 col-3 mx-auto mb-2 " disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">Procedimiento:</button>
+        </div>
+        <div>
+         <p class="fs-5"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nisi consequuntur tenetur officia, ab debitis enim temporibus recusandae, expedita aspernatur aut cumque vel suscipit assumenda tempore sunt quia sit cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem autem excepturi quae. Eum esse ipsa vero ab eligendi ducimus libero, tenetur quaerat at quidem, magni ratione sint doloremque? Illum, dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda recusandae ex totam labore aperiam facilis necessitatibus veritatis! Ratione, sequi, nemo iusto assumenda necessitatibus nisi consectetur autem tenetur quam aut id!</p>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="d-flex flex-row-reverse">
+        <button type="button " class="btn btn-lg">Enviar mensaje</button>
+        </div>
+        </section>
+
+        <footer class="footerC mt-5 w-100 d-flex align-items-center justify-content-center flex-wrap">
+          <p class="fs-5">Consultorio Online &copy; Todos los derechos reservados 2022.</p>
+          <div id="iconos">
+            <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
+            <a href="https://Instagram.com"><i class="bi bi-instagram"></i></a>
+            <a href="https://WhatsApp.com"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://gmail.com"><i class="bi bi-envelope"></i></a>
+          </div>
+          <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum debitis vel reiciendis minus voluptatem fugit optio soluta saepe repellat laudantium corporis inventore, nulla officiis veniam expedita perspiciatis. Laboriosam, magni sapiente?</p>
+          </div>
+         </footer>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script> AOS.init();</script>
+      <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

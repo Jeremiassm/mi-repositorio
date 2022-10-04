@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .bodyI{
+        max-width: 844px;
+        min-width: 320px;
+
+        .imagenPrincipal {
+            max-width: 1000px;
+            min-width: 320px;
+            max-height: 500px;
+            background-image: url("../../../img/med1-media.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            padding-inline: 40px;
+            border: 1px solid black}
+    
+            .imagenPrincipal h2{
+            color: white;
+            font-family: $fontAnton;
+            text-align: center;
+            font-size: 1.3rem;
+    }
+            .imagenPrincipal p {
+             color: white;
+             font-size: 1.1rem;
+
+            }
+  }
+}
+    
+    

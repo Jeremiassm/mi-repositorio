@@ -8,11 +8,15 @@
    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
    <!--Iconos-->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <!--AOS-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!--animate-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
    <!-- custom styles -->
    <link rel="stylesheet" href="../styles/estilos.css" />
     <title>Consultorio - Novedades</title>
 </head>
-<body>
+<body class="bodyN">
     <header>
         <!--NAVBAR-->
         <nav
@@ -20,7 +24,7 @@
           style="background-color: #0cb8b8"
         >
           <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">Consultorio</a>
+            <a class="navbar-brand" href="../index.html">Consultorio</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -34,19 +38,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="Pages/beneficios.html">Beneficios</a
+                <li class="nav-item item1 animate__animated animate__fadeInDownBig">
+                  <a class="nav-link" href="../Pages/beneficios.html">Beneficios</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Pages/contactenos.html">Contáctenos</a
+                <li class="nav-item item2 animate__animated animate__fadeInDownBig">
+                  <a class="nav-link" href="../Pages/contactenos.html">Contáctenos</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Pages/soporte.html">Soporte</a>
+                <li class="nav-item item3 animate__animated animate__fadeInDownBig">
+                  <a class="nav-link" href="../Pages/soporte.html">Soporte</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Pages/iniciar-sesion.html">Iniciar sesión</a
+                <li class="nav-item item4 animate__animated animate__fadeInDownBig">
+                  <a class="nav-link" href="../Pages/iniciar-sesion.html">Iniciar sesión</a
                   >
                 </li>
               </ul>
@@ -55,22 +59,22 @@
         </nav>
       </header>
       <section class="titulo">
-        <div class="d-grid gap-1 col-3 mx-auto mt-5 shadow-lg mb-5 text-decoration-underline">
-            <button class="btn btn-outline disabled btn-lg" type="button">Novedades</button>
+        <div class="d-grid gap-1 col-3 mx-auto mt-5 mb-5">
+          <button class="button-36 d-grid col-6 mx-auto" disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">Novedades</button>
+          <section class="main">
             </div>
             </section>
-                
-            <section class="container">
+            <section class="containerN">
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="d-grid gap-1 shadow-lg mb-5">
-                        <button class="novedades btn btn-outline disabled btn-lg text-decoration-underline" type="button">Tratamientos</button>
+                    <div>
+                      <button class="button-36 d-grid col-6 mx-auto mb-2" disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">Tratamientos</button>
                         <p class="fs-3 bg-light mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, vero cupiditate. Obcaecati, labore fugiat. Voluptatem iure consequatur, doloribus veniam repellat commodi, quod impedit, tempora laudantium natus quisquam vitae sapiente voluptatum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia officiis quae veritatis ducimus, modi perferendis ullam consectetur eius molestias facilis doloremque culpa commodi a qui laudantium nesciunt vel distinctio.</p>
                     </div>
                   </div>
                     <div class="col-md-6">
-                        <div class="d-grid gap-1 shadow-lg mb-5">
-                        <button class="novedades btn btn-outline disabled btn-lg text-decoration-underline" type="button">Consejos del día</button>
+                        <div>
+                          <button class="button-36 d-grid col-6 mx-auto mb-2" disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">Consejos del día</button>
                         <p class="fs-3 bg-light mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, vero cupiditate. Obcaecati, labore fugiat. Voluptatem iure consequatur, doloribus veniam repellat commodi, quod impedit, tempora laudantium natus quisquam vitae sapiente voluptatum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia officiis quae veritatis ducimus, modi perferendis ullam consectetur eius molestias facilis doloremque culpa commodi a qui laudantium nesciunt vel distinctio.</p>
                         </div>
                     </div>
@@ -90,7 +94,8 @@
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum debitis vel reiciendis minus voluptatem fugit optio soluta saepe repellat laudantium corporis inventore, nulla officiis veniam expedita perspiciatis. Laboriosam, magni sapiente?</p>
                 </div>
             </footer>
-      
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script> AOS.init();</script>
             <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

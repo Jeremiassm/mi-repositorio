@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;700&display=swap');
 
 $fontMulish: "Mulish", sans-serif;
 
-$mainColor: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);;
+$fontAnton: "Anton" , sans-serif;
+
+$fontSignika: "Signika negative", sans-serif;
+
+$mainColor: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+$botonColor: #0cb8b8;
 
 $BackgroudColor: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 
+$ContainerColor: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);

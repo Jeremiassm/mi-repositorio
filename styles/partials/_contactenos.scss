@@ -1,0 +1,40 @@
+.bodyC {
+  background-image: $BackgroudColor;
+    position: relative;
+    padding-bottom: 10rem;
+    min-height: 100vh;
+    footer{
+      display: flex;
+      position: absolute;
+      bottom: 0;    
+      background: #f0ffff;
+      min-height: 100px;
+      padding-top: 20px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .btn{
+      background-color: $botonColor;
+      }
+      .button-36 {
+        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+        border-radius: 8px;
+        border-style: none;
+        color: black;
+        font-size: 27px;
+        font-weight: 500;
+        height: 3.5rem;
+        padding: 0 1.6rem 2rem;
+        text-align: center;
+        text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+        transition: all .5s;
+        user-select: none;
+        -webkit-user-select: none;
+        font-family: $fontSignika;
+      }
+      .button-36:hover {
+        box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+        transition-duration: .2s;
+      }
+}

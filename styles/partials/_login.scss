@@ -1,0 +1,94 @@
+.bodyL {
+    background-image: $mainColor;
+    font-family: $fontSignika;
+    padding-bottom: 10rem;
+    min-height: 100vh;
+  }
+  .login-box {
+    width: 320px;
+    height: 420px;
+    background: rgb(255, 255, 255);
+    color: rgb(5, 4, 4);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 40px 30px;
+  }
+  
+  .login-box h1 {
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"],
+  .login-box input[type="Contraseña"] {
+    border: none;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #217787;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: $botonColor;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .login-box a:hover {
+    color: rgb(10, 10, 10);
+  }
+  
+  footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;    
+    background: #f0ffff;
+    min-height: 100px;
+    padding-top: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+    .footerI p{
+      text-align: center;
+    }
+    #iconos i{
+      font-size: 26px;
+      padding: 0 8px;
+      color: black;
+      border-radius: 10px ;
+    }
+  

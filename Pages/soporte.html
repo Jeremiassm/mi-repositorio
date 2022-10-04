@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="../styles/bootstrap.min.css" />
     <!--Iconos-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- custom styles -->
-    <link rel="stylesheet" href= "../styles/estilos.css" />
+    <link rel="stylesheet" href= "../styles/estilos.css"/>
     <title>Consultorio - Soporte</title>
 </head>
-<body>
+<body class="bodyS">
     <header>
         <!--NAVBAR-->
         <nav
@@ -33,18 +37,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item item1 animate__animated animate__fadeInDownBig">
                   <a class="nav-link" href="./beneficios.html">Beneficios</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item item2 animate__animated animate__fadeInDownBig">
                   <a class="nav-link" href="./contactenos.html">Contáctenos</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item item3 animate__animated animate__fadeInDownBig">
                   <a class="nav-link active" href="./soporte.html">Soporte</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item item4 animate__animated animate__fadeInDownBig">
                   <a class="nav-link" href="./iniciar-sesion.html">Iniciar sesión</a>
                 </li>
               </ul>
@@ -52,33 +56,30 @@
           </div>
         </nav>
       </header>
-
-        <section class="titulo">
-          <div class="d-grid gap-1 col-3 mx-auto mt-5 shadow-lg mb-5 rounded">
-            <button class="btn btn-outline disabled btn-lg" type="button">Soporte Online</button>
+          
+      <div class="d-grid gap-1 col-3 mx-auto mt-3 rounded">
+            <button class="button-36 d-grid col-7 mx-auto mb-2" disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">Soporte online</button>
          </div>
-        </section>
-         <section class="desc ms-3 text-bg-light p-3 me-3">
+        <button class="button-36 ms-4" disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">¿Tenes alguna consulta qué realizarnos?</button>
+         <section class="main">
+            <button class="button-36" disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">Preguntas frecuentes:</button>
             <div>
-                <p class="textF fs-3 ">¿Tenes alguna consulta qué realizarnos?</p>
-            </div>
-           <div>
-            <p class="textF fs-3 ">Preguntas frecuentes:</p>
-           </div>
-            <div class="">
-             <p class="textS fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab commodi adipisci tempora voluptatibus qui facilis voluptas ratione, architecto obcaecati ut, nemo eius debitis soluta impedit omnis nihil dicta quis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quos neque sint est quisquam ipsam amet delectus ab. Molestias sint, aliquam quibusdam eligendi earum soluta molestiae nobis cupiditate velit! Repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore iure ratione voluptates? Explicabo temporibus nulla corrupti magnam corporis saepe omnis illo! Mollitia saepe nostrum, iste veritatis perferendis esse ut deserunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus pariatur laudantium error! Expedita iusto nihil illum, maiores veniam delectus, itaque odit fuga aliquam consequuntur facilis placeat dolorem laborum optio assumenda. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, vel doloremque. Beatae commodi voluptates nobis laborum, magni sit omnis doloribus porro sed optio odit hic, praesentium sequi debitis molestias! Distinctio?
+             <p class="text fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem ex aperiam, perspiciatis commodi ea repudiandae ipsam delectus laboriosam adipisci a, reiciendis pariatur placeat fugit quaerat, sint aut error repellendus magnam.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab commodi adipisci tempora voluptatibus qui facilis voluptas ratione, architecto obcaecati ut, nemo eius debitis soluta impedit omnis nihil dicta quis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quos neque sint est quisquam ipsam amet delectus ab. Molestias sint, aliquam quibusdam eligendi earum soluta molestiae nobis cupiditate velit! Repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore iure ratione voluptates? Explicabo temporibus nulla corrupti magnam corporis saepe omnis illo! Mollitia saepe nostrum, iste veritatis perferendis esse ut deserunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus pariatur laudantium error! Expedita iusto nihil illum, maiores veniam delectus, itaque odit fuga aliquam consequuntur facilis placeat dolorem laborum optio assumenda. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, vel doloremque. Beatae commodi voluptates nobis laborum, magni sit omnis doloribus porro sed optio odit hic, praesentium sequi debitis molestias! Distinctio?
              </p>
             </div>
             <div>
-                <p class="textF fs-3 ">También podes hablar con un asesor. ¡Estamos para ayudarte!</p>
+              <button class="button-36" disabled data-aos="fade-down" data-delay="100" data-aos-duration="1000">También podes hablar con un asesor. ¡Estamos para ayudarte!</button>
                 <div class="d-flex flex-row-reverse">
                     <div class="p-2">
-                    <button type="button" class="btn btn-lg">Hablar con un agente</button>
-                  </div>
+                    <a href="../Pages/contactenos.html">
+                    <button type="button" class="btn btn-lg"> Hablar con un agente</button>
+                    </a>
+                    </div>
             </div>
+          </div>
          </section>
 
-         <footer class="mt-5 w-100 d-flex align-items-center justify-content-center flex-wrap">
+         <footer class="footerS mt-5 w-100 d-flex align-items-center justify-content-center flex-wrap">
             <p class="fs-5 px-3 pt-3">Consultorio Online &copy; Todos los derechos reservados 2022.</p>
             
             <div id="iconos">
@@ -91,23 +92,8 @@
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum debitis vel reiciendis minus voluptatem fugit optio soluta saepe repellat laudantium corporis inventore, nulla officiis veniam expedita perspiciatis. Laboriosam, magni sapiente?</p>
             </div>
           </footer>
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 

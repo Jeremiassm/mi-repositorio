@@ -1,0 +1,15 @@
+.navbar-brand{
+  -webkit-animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
+  animation-duration: 0.8s;
+}
+
+.navbar-nav{
+  @for $item from 1 through 4 {
+    .nav-item.item#{$item}{
+        animation-duration: $item*0.3s;
+      }
+  }
+}
+
+  @-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+  @keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}

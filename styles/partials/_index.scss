@@ -1,0 +1,114 @@
+.bodyI {
+    background-image:$mainColor;
+    position: relative;
+    padding-bottom: 10rem;
+    
+    .imagenPrincipal {
+      height: 80vh;
+      background-image: url("../../../img/med1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      border: 1px solid black;
+    }
+      .imagenPrincipal h2{
+        color: white;
+        font-family: $fontAnton;
+      }
+      .imagenPrincipal p {
+        color: white;
+      }
+      .quienes-somos{
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        border: 2px solid white;
+        margin:2rem 10rem 2rem !important;
+        padding: 2rem 10rem 2 rem 10rem !important;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+      }
+      .btn{
+        background-color: #0cb8b8 !important;
+        color: black;
+      }
+      .button-36 {
+        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+        border-radius: 8px;
+        border-style: none;
+        color: black;
+        font-size: 35px;
+        font-weight: 500;
+        height: 4rem;
+        padding: 0 1.6rem;
+        text-align: center;
+        text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+        transition: all .5s;
+        user-select: none;
+        -webkit-user-select: none;
+        font-family: $fontSignika;
+      }
+      .button-36:hover {
+        box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+        transition-duration: .2s;
+      }
+      p{
+      font-family: $fontSignika
+      }
+      .main{
+        background-image: $ContainerColor;
+        border: 2px solid white;
+        margin: 2rem 10rem 2rem 10rem!important;
+        padding: 2rem 15rem 2rem 15rem!important;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+      }
+      .card-body{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+          h5{
+            font-family: $fontSignika;
+          }
+      }
+      .video-card{
+        height: 500px;
+      }
+      .footerI{
+        display: flex;
+        position: absolute;
+        bottom: 0;    
+        background: #f0ffff;
+        min-height: 100px;
+        padding-top: 20px;
+        bottom: 0;
+        width: 100%;
+      }
+        .footerI p{
+          text-align: center;
+        }
+        #iconos i{
+          font-size: 26px;
+          padding: 0 8px;
+          color: black;
+          border-radius: 10px ;
+        }
+    }
+
+
+$redes:(
+  facebook: #7a7af0,
+  instagram: #d497c5,
+  whatsapp: #008000,
+  envelope: #e98d8d,
+);
+
+@each $redesS, $colordered in $redes{
+.bi-#{$redesS}{
+  background-color: $colordered;
+}
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}

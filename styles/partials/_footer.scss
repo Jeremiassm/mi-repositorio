@@ -1,20 +1,12 @@
-.titulo{
-    background-color: $BackgroudColor;
-}
-
-.textF {
-    text-decoration: underline;
-}
 footer{
-    background: #f0ffff;
+    background-color: #f0ffff;
     min-height: 100px;
     padding-top: 20px;
-    display: flex;
-    position: absolute;
-    bottom: 0;   
+    margin-top: 50px;
+  }
     
 
-    footer p{
+    .footer p{
         text-align: center;
       }
 
@@ -24,7 +16,7 @@ footer{
         color: black;
         border-radius: 10px ;
       }
-  }
+  
   $redes:(
     facebook: #7a7af0,
     instagram: #d497c5,
