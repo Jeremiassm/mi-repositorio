@@ -4,15 +4,18 @@
     padding-bottom: 10rem;
     
     .container{
-        background-image: $ContainerColor;
-        margin: 2rem 17rem 2rem 19rem;
         padding: 2rem 2rem 2rem 2rem;
+        margin: 0 auto;
+        background-image: $ContainerColor;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    }
-
-    .container.main{
+        
+      }
+      .container.main{
+        margin: 0 auto;
         margin-top: 10rem;
-    }
+      }
+
+    
     .button-36 {
         background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
         border-radius: 8px;

@@ -3,6 +3,16 @@
     font-family: $fontSignika;
     padding-bottom: 10rem;
     min-height: 100vh;
+    footer{
+      display: flex;
+      position: absolute;
+      bottom: 0;    
+      background: #f0ffff;
+      min-height: 100px;
+      padding-top: 20px;
+      bottom: 0;
+      width: 100%;
+    }
   }
   .login-box {
     width: 320px;
@@ -72,16 +82,7 @@
     color: rgb(10, 10, 10);
   }
   
-  footer{
-    display: flex;
-    position: absolute;
-    bottom: 0;    
-    background: #f0ffff;
-    min-height: 100px;
-    padding-top: 20px;
-    bottom: 0;
-    width: 100%;
-  }
+ 
     .footerI p{
       text-align: center;
     }

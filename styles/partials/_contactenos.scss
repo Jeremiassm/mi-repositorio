@@ -3,17 +3,7 @@
     position: relative;
     padding-bottom: 10rem;
     min-height: 100vh;
-    footer{
-      display: flex;
-      position: absolute;
-      bottom: 0;    
-      background: #f0ffff;
-      min-height: 100px;
-      padding-top: 20px;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
+    
     .btn{
       background-color: $botonColor;
       }
@@ -37,4 +27,15 @@
         box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
         transition-duration: .2s;
       }
+}
+footer{
+  display: flex;
+  position: absolute;
+  bottom: 0;    
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

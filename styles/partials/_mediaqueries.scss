@@ -1,35 +1,209 @@
 @media screen and (max-width: 768px) {
     .bodyI{
-        max-width: 844px;
-        min-width: 320px;
-
+ 
         .imagenPrincipal {
             max-width: 1000px;
             min-width: 320px;
             max-height: 500px;
             background-image: url("../../../img/med1-media.jpg");
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             background-position:center;
             display: flex;
             justify-content:center;
             align-items:center;
             flex-direction:column;
             padding-inline: 40px;
-            border: 1px solid black}
+            border: none}
     
             .imagenPrincipal h2{
-            color: white;
+            color: #0cb8b8;
             font-family: $fontAnton;
             text-align: center;
-            font-size: 1.3rem;
-    }
-            .imagenPrincipal p {
-             color: white;
-             font-size: 1.1rem;
+            font-size: 1.3rem;}
 
+            .imagenPrincipal p {
+             color: #0cb8b8;
+             font-size: 1.1rem;
+            }
+            .button-36 {
+            font-size: 23px;
+
+            .quienes-somos{
+                margin: 0 !important;
+                padding: 0 !important;
             }
   }
 }
+}  
+    .bodyB{
+        .button-36 {
+            font-size: 20px;
+  }
+
+    }
+    .bodyC{
+        .button-36 {
+            font-size: 20px;}
+}
+
+.bodyS{
+    .button-36 {
+        font-size: 20px;}
+    .button-36.d-grid{
+      
+    }    
+}
+
+.bodyT{
+    iframe{
+        width: 96%;
+    }
+    .container{
+        margin-bottom: 30px;
+    }
+}
+
+.bodyCO{
+    .button-36 {
+        font-size: 20px;}
+}
+
+.bodyO{
+    .button-36 {
+        font-size: 20px;}
     
-    
+    .container{
+        margin: 2rem 2rem 2rem 2rem;
+        padding: 2rem 2rem 2rem 2rem;
+        margin: 0 auto;
+
+    }
+}
+
+.bodyN{
+    position: relative;
+    padding-bottom: 10rem;
+
+    .button-36 {
+     font-size: 20px;
+    }
+    .footerN{
+        display: flex;
+        position: absolute;
+        bottom: 0;    
+        background: #f0ffff;
+        min-height: 100px;
+        padding-top: 20px;
+        bottom: 0;
+        width: 100%;
+      }
+   }
+@media screen and (max-width: 480px) {
+    .bodyI{
+
+        .imagenPrincipal{
+            height: 300px ;
+        }
+        .quienes-somos{
+            margin: 0 !important;
+            padding:0 !important;
+        }
+        .imagenPrincipal h2{
+            color: #0cb8b8;
+            font-family: $fontAnton;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .imagenPrincipal p {
+        color:#0cb8b8;
+        font-size: 1rem !important;
+        }
+        .button-36 {
+        font-size: 18px;
+        margin: 10px 0 10px;
+  }
+ }
+    .bodyB{
+        position: relative;
+        padding-bottom: 20rem !important;
+        .main{
+            margin: 0 !important;
+            padding:0 !important;
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .footerB{
+            display: flex;
+            position: absolute;
+            bottom: 0;    
+            background: #f0ffff;
+            min-height: 100px;
+            padding-top: 20px;
+            width: 100%;
+        }
+        .button-36{
+            margin: 10px 0 10px;
+        }
+    }
+    .bodyC{
+        position: relative;
+        padding-bottom: 20rem !important;}
+        
+    .bodyS{
+        padding-bottom: 20rem !important;}
+        .mainS{
+        margin: 0 !important;
+        padding:0 !important;
+        .button-36{
+            margin: 10px 0 10px;
+            padding-bottom: 40px;
+        }
+    }
+
+    .bodyL {
+        position: relative;
+        padding-bottom: 55rem !important;
+
+        .login-box {
+            padding-bottom: 20rem !important;
+        }
+      
+
+    footer{
+      display: flex;
+      position: absolute;
+      bottom: 0;    
+      background: #f0ffff;
+      min-height: 100px;
+      padding-top: 20px;
+      width: 100%;}
+    }
+    .bodyT{
+        padding-bottom: 20rem !important;
+
+    }
+    .bodyCO{
+        padding-bottom: 20rem !important;
+    }
+    .bodyO{
+        padding-bottom: 20rem !important;
+        .button-36 {
+            font-size: 18px;
+            margin: 10px 0 10px;}
+
+}
+.bodyN{
+    position: relative;
+        padding-bottom: 20rem !important;
+        .button-36 {
+            font-size: 18px;
+            margin: 10px 0 10px;}
+}
+
+
+}
+   

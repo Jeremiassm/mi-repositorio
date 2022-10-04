@@ -22,7 +22,6 @@
   background-position: center center;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   border: 1px solid black;
 }
@@ -72,8 +71,8 @@
 .bodyI .main {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   border: 2px solid white;
-  margin: 2rem 10rem 2rem 10rem !important;
-  padding: 2rem 15rem 2rem 15rem !important;
+  width: 70%;
+  margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 .bodyI .card-body {
@@ -155,7 +154,7 @@
    -ms-user-select: none;
        user-select: none;
   -webkit-user-select: none;
-  font-family: "Signika negative", sans-serif;
+  font-family: "Anton", sans-serif;
 }
 .bodyB .button-36:hover {
   box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
@@ -164,7 +163,7 @@
 .bodyB .main {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   border: 2px solid white;
-  margin: 2rem 10rem 2rem !important;
+  margin: 2rem 2rem 2rem !important;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 .bodyB .card-body {
@@ -196,17 +195,6 @@
   padding-bottom: 10rem;
   min-height: 100vh;
 }
-.bodyC footer {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  background: #f0ffff;
-  min-height: 100px;
-  padding-top: 20px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 .bodyC .btn {
   background-color: #0cb8b8;
 }
@@ -233,11 +221,33 @@
   transition-duration: 0.2s;
 }
 
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .bodyL {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   font-family: "Signika negative", sans-serif;
   padding-bottom: 10rem;
   min-height: 100vh;
+}
+.bodyL footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
 }
 
 .login-box {
@@ -306,17 +316,6 @@
 
 .login-box a:hover {
   color: rgb(10, 10, 10);
-}
-
-footer {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  background: #f0ffff;
-  min-height: 100px;
-  padding-top: 20px;
-  bottom: 0;
-  width: 100%;
 }
 
 .footerI p {
@@ -493,7 +492,7 @@ footer {
   color: black;
   border-radius: 10px;
 }
-.bodyS .main {
+.bodyS .mainS {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   border: 2px solid white;
   margin: 2rem 2rem 2rem 1.5rem !important;
@@ -528,6 +527,8 @@ footer {
 
 .bodyN {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  padding-bottom: 10rem;
+  min-height: 100vh;
 }
 .bodyN .containerN {
   padding: 2rem 2rem 2rem 2rem;
@@ -557,6 +558,25 @@ footer {
   box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
   transition-duration: 0.2s;
 }
+.bodyN .footerN {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
+}
+.bodyN .footerN p {
+  text-align: center;
+}
+.bodyN #iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: black;
+  border-radius: 10px;
+}
 
 .bodyO {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -564,12 +584,13 @@ footer {
   padding-bottom: 10rem;
 }
 .bodyO .container {
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-  margin: 2rem 17rem 2rem 19rem;
   padding: 2rem 2rem 2rem 2rem;
+  margin: 0 auto;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 .bodyO .container.main {
+  margin: 0 auto;
   margin-top: 10rem;
 }
 .bodyO .button-36 {
@@ -652,33 +673,184 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .bodyI {
-    max-width: 844px;
-    min-width: 320px;
-  }
   .bodyI .imagenPrincipal {
     max-width: 1000px;
     min-width: 320px;
     max-height: 500px;
     background-image: url("../../../img/med1-media.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-inline: 40px;
-    border: 1px solid black;
+    border: none;
   }
   .bodyI .imagenPrincipal h2 {
-    color: white;
+    color: #0cb8b8;
     font-family: "Anton", sans-serif;
     text-align: center;
     font-size: 1.3rem;
   }
   .bodyI .imagenPrincipal p {
-    color: white;
+    color: #0cb8b8;
     font-size: 1.1rem;
+  }
+  .bodyI .button-36 {
+    font-size: 23px;
+  }
+  .bodyI .button-36 .quienes-somos {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+.bodyB .button-36 {
+  font-size: 20px;
+}
+
+.bodyC .button-36 {
+  font-size: 20px;
+}
+
+.bodyS .button-36 {
+  font-size: 20px;
+}
+.bodyT iframe {
+  width: 96%;
+}
+.bodyT .container {
+  margin-bottom: 30px;
+}
+
+.bodyCO .button-36 {
+  font-size: 20px;
+}
+
+.bodyO .button-36 {
+  font-size: 20px;
+}
+.bodyO .container {
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 0 auto;
+}
+
+.bodyN {
+  position: relative;
+  padding-bottom: 10rem;
+}
+.bodyN .button-36 {
+  font-size: 20px;
+}
+.bodyN .footerN {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .bodyI .imagenPrincipal {
+    height: 300px;
+  }
+  .bodyI .quienes-somos {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .bodyI .imagenPrincipal h2 {
+    color: #0cb8b8;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .bodyI .imagenPrincipal p {
+    color: #0cb8b8;
+    font-size: 1rem !important;
+  }
+  .bodyI .button-36 {
+    font-size: 18px;
+    margin: 10px 0 10px;
+  }
+  .bodyB {
+    position: relative;
+    padding-bottom: 20rem !important;
+  }
+  .bodyB .main {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .bodyB .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .bodyB .footerB {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background: #f0ffff;
+    min-height: 100px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .bodyB .button-36 {
+    margin: 10px 0 10px;
+  }
+  .bodyC {
+    position: relative;
+    padding-bottom: 20rem !important;
+  }
+  .bodyS {
+    padding-bottom: 20rem !important;
+  }
+  .mainS {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .mainS .button-36 {
+    margin: 10px 0 10px;
+    padding-bottom: 40px;
+  }
+  .bodyL {
+    position: relative;
+    padding-bottom: 55rem !important;
+  }
+  .bodyL .login-box {
+    padding-bottom: 20rem !important;
+  }
+  .bodyL footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background: #f0ffff;
+    min-height: 100px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .bodyT {
+    padding-bottom: 20rem !important;
+  }
+  .bodyCO {
+    padding-bottom: 20rem !important;
+  }
+  .bodyO {
+    padding-bottom: 20rem !important;
+  }
+  .bodyO .button-36 {
+    font-size: 18px;
+    margin: 10px 0 10px;
+  }
+  .bodyN {
+    position: relative;
+    padding-bottom: 20rem !important;
+  }
+  .bodyN .button-36 {
+    font-size: 18px;
+    margin: 10px 0 10px;
   }
 }/*# sourceMappingURL=estilos.css.map */
