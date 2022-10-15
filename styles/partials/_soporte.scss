@@ -31,27 +31,20 @@
         padding: 1rem 3rem 3rem 3rem!important;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     }
-    .button-36 {
-      background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-      border-radius: 8px;
-      border-style: none;
-      color: black;
-      font-size: 30px;
-      font-weight: 500;
-      height: 3.5rem;
-      padding: 0 1.6rem 2rem;
-      text-align: center;
-      text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-      transition: all .5s;
-      user-select: none;
-      -webkit-user-select: none;
+    .btn{
       font-family: $fontSignika;
-    }
-    .button-36:hover {
-      box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
-      transition-duration: .2s;
-    }
-    button {
-        background-color: $botonColor !important;
+      background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+      color: black;
+      border-radius: 8px;
+      font-size: 3vh;
+      border-style: none;
+      text-align: center;
+      margin: 1em 0 1em 0;
+      text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;}
+      .btn.btnMSJ {
+        background-image: none;
+        background-color: $botonColor;
+        font-family: $fontMulish;
+        font-size: 2vh;
     }
 }

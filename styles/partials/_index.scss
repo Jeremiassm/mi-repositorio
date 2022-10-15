@@ -24,34 +24,26 @@
       .quienes-somos{
         background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
         border: 2px solid white;
-        margin:2rem 10rem 2rem !important;
-        padding: 2rem 10rem 2 rem 10rem !important;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
       }
       .btn{
-        background-color: #0cb8b8 !important;
-        color: black;
-      }
-      .button-36 {
-        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-        border-radius: 8px;
-        border-style: none;
-        color: black;
-        font-size: 35px;
-        font-weight: 500;
-        height: 4rem;
-        padding: 0 1.6rem;
-        text-align: center;
-        text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-        transition: all .5s;
-        user-select: none;
-        -webkit-user-select: none;
         font-family: $fontSignika;
-      }
-      .button-36:hover {
-        box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
-        transition-duration: .2s;
-      }
+        background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+        color: black;
+        border-radius: 8px;
+        font-size: 3vh;
+        border-style: none;
+        text-align: center;
+        margin: 1em 0 1em 0;
+        text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+        .btn a:hover{
+          box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+          transition-duration: .2s;
+        }
+      }     
       p{
       font-family: $fontSignika
       }
@@ -60,8 +52,18 @@
         border: 2px solid white;
         width: 70%;
         margin: 0 auto;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;}
+        .btn.btnC{
+          background-image: none;
+          background-color: $botonColor;
+          font-family: $fontMulish;
+          font-size: 2vh;
+        }
+        .btn.btnC a:hover{
+          background-color: $ContainerColor;
+          border-color:#0cb8b8;
       }
+      
       .card-body{
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
           h5{
@@ -90,7 +92,7 @@
           color: black;
           border-radius: 10px ;
         }
-    }
+    
 
 
 $redes:(
@@ -105,9 +107,4 @@ $redes:(
   background-color: $colordered;
 }
 }
-
-@media (min-width: 768px) {
-  .button-36 {
-    padding: 0 2.6rem;
-  }
 }
