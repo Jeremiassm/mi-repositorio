@@ -2,7 +2,7 @@
     .bodyI{
  
         .imagenPrincipal {
-            max-height: 400px;
+            max-height: 490px;
             background-color: #f0ffff;
             background-image: none;
             background-repeat: none;
@@ -26,8 +26,6 @@
              color: black;
              font-size: 1.1rem;
             }
-            .button-36 {
-            font-size: 23px;
 
             .quienes-somos{
                 margin: 0 !important;
@@ -35,7 +33,6 @@
             }
   }
 }
-}  
 .bodyT{
     iframe{
         width: 96%;
@@ -79,33 +76,42 @@
 @media screen and (max-width: 480px) {
     .bodyI{
 
-        .imagenPrincipal{
-            height: 300px ;
+        .imagenPrincipal {
+            max-height: 600px;
+            background-color: #f0ffff;
+            background-image: none;
+            background-repeat: none;
+            background-size: none;
+            background-position:none;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            padding-inline: 0;
+            border: none;
         }
-        .quienes-somos{
+        .imagenPrincipal h2{
+            color: black;
+            font-family: $fontAnton;
+            text-align: center;
+            font-size: 1.2em;}
+        
+            .imagenPrincipal p {
+                color: black;
+                font-size: 0.9rem;
+            }
+        
+            .quienes-somos{
             margin: 0 !important;
             padding:0 !important;
         }
-        .imagenPrincipal h2{
-            color: #0cb8b8;
-            font-family: $fontAnton;
-            text-align: center;
-            font-size: 0.9rem;
-        }
+       
 
-        .imagenPrincipal p {
-        color:#0cb8b8;
-        font-size: 1rem !important;
-        }
-        .button-36 {
-        font-size: 18px;
-        margin: 10px 0 10px;
+        
   }
  }
     .bodyB{
         padding-bottom: 20rem !important;
-       
-      
     }
     .bodyC{
         position: relative;
@@ -152,6 +158,34 @@
         padding-bottom: 20rem !important;
 }
 
-
+@media screen and (max-width: 320px)
+{
+    .bodyI{
+        .imagenPrincipal {
+            height: auto;
+            max-height: 600px;
+            background-color: #f0ffff;
+            background-image: none;
+            background-repeat: none;
+            background-size: none;
+            background-position:none;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            padding-inline: 0;
+            border: none;
+        }
+        .imagenPrincipal h2{
+            color: black;
+            font-family: $fontAnton;
+            text-align: center;
+            font-size: 1.2em;}
+        
+            .imagenPrincipal p {
+                color: black;
+                font-size: 0.9rem;
+            }
+    }
 }
    

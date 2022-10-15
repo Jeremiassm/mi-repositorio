@@ -639,7 +639,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .bodyI .imagenPrincipal {
-    max-height: 400px;
+    max-height: 490px;
     background-color: #f0ffff;
     background-image: none;
     background-repeat: none;
@@ -662,10 +662,7 @@ footer {
     color: black;
     font-size: 1.1rem;
   }
-  .bodyI .button-36 {
-    font-size: 23px;
-  }
-  .bodyI .button-36 .quienes-somos {
+  .bodyI .quienes-somos {
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -707,67 +704,110 @@ footer {
 
 @media screen and (max-width: 480px) {
   .bodyI .imagenPrincipal {
-    height: 300px;
+    max-height: 600px;
+    background-color: #f0ffff;
+    background-image: none;
+    background-repeat: none;
+    background-size: none;
+    background-position: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 0;
+    border: none;
+  }
+  .bodyI .imagenPrincipal h2 {
+    color: black;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .bodyI .imagenPrincipal p {
+    color: black;
+    font-size: 0.9rem;
   }
   .bodyI .quienes-somos {
     margin: 0 !important;
     padding: 0 !important;
   }
+}
+.bodyB {
+  padding-bottom: 20rem !important;
+}
+
+.bodyC {
+  position: relative;
+  padding-bottom: 20rem !important;
+}
+
+.bodyS {
+  padding-bottom: 20rem !important;
+}
+
+.mainS {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.bodyL {
+  position: relative;
+  padding-bottom: 55rem !important;
+}
+.bodyL .login-box {
+  padding-bottom: 20rem !important;
+}
+.bodyL footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background: #f0ffff;
+  min-height: 100px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.bodyT {
+  padding-bottom: 20rem !important;
+}
+
+.bodyCO {
+  padding-bottom: 20rem !important;
+}
+
+.bodyO {
+  padding-bottom: 20rem !important;
+}
+
+.bodyN {
+  position: relative;
+  padding-bottom: 20rem !important;
+}
+
+@media screen and (max-width: 320px) {
+  .bodyI .imagenPrincipal {
+    height: auto;
+    max-height: 600px;
+    background-color: #f0ffff;
+    background-image: none;
+    background-repeat: none;
+    background-size: none;
+    background-position: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 0;
+    border: none;
+  }
   .bodyI .imagenPrincipal h2 {
-    color: #0cb8b8;
+    color: black;
     font-family: "Anton", sans-serif;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.2em;
   }
   .bodyI .imagenPrincipal p {
-    color: #0cb8b8;
-    font-size: 1rem !important;
-  }
-  .bodyI .button-36 {
-    font-size: 18px;
-    margin: 10px 0 10px;
-  }
-  .bodyB {
-    padding-bottom: 20rem !important;
-  }
-  .bodyC {
-    position: relative;
-    padding-bottom: 20rem !important;
-  }
-  .bodyS {
-    padding-bottom: 20rem !important;
-  }
-  .mainS {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .bodyL {
-    position: relative;
-    padding-bottom: 55rem !important;
-  }
-  .bodyL .login-box {
-    padding-bottom: 20rem !important;
-  }
-  .bodyL footer {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    background: #f0ffff;
-    min-height: 100px;
-    padding-top: 20px;
-    width: 100%;
-  }
-  .bodyT {
-    padding-bottom: 20rem !important;
-  }
-  .bodyCO {
-    padding-bottom: 20rem !important;
-  }
-  .bodyO {
-    padding-bottom: 20rem !important;
-  }
-  .bodyN {
-    position: relative;
-    padding-bottom: 20rem !important;
+    color: black;
+    font-size: 0.9rem;
   }
 }/*# sourceMappingURL=estilos.css.map */
